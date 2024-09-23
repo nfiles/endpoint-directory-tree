@@ -7,19 +7,22 @@
 
 ## Run
 
-navigate to this directory in your favorite shell
+Navigate to this directory in your favorite shell
 
-to test with the sample input:
+To test with the sample input:
 ```bash
 go run . < input.txt
 ```
 
-to launch a REPL and provide your own commands:
+To launch a REPL and provide your own commands:
 ```bash
 go run .
 # enter commands
 # CTRL-C to exit
 ```
+
+Cross-compiled binaries have been included in `bin/` if that's easier.
+Only `bin/directorytree_linux_amd64` has been tested, so buyer beware. :)
 
 ## Author
 
