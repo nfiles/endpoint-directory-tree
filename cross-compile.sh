@@ -3,6 +3,7 @@
 set -e
 set -o pipefail
 
+rm -rf bin
 mkdir -p bin
 
 env GOOS=darwin  GOARCH=amd64 go build -o bin/directorytree_darwin_amd64

@@ -23,6 +23,9 @@ go run .
 
 Cross-compiled binaries have been included in `bin/` if that's easier.
 Only `bin/directorytree_linux_amd64` has been tested, so buyer beware. :)
+```bash
+bin/directorytree_linux_amd64 < input.txt
+```
 
 ## Author
 
